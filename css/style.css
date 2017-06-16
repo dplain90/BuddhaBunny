@@ -1,0 +1,71 @@
+body, div {
+  margin: 0px;
+  padding: 0px;
+}
+
+div#root {
+  height: 100%;
+  width: 100%;
+}
+
+.quote-container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Asul', sans-serif;
+  font-style: italic;
+  font-size: 36px;
+  min-height: 300px;
+}
+
+.quote-container button {
+  height: 50px;
+  width: 100px;
+
+}
+.quote-author {
+  font-style: normal;
+  color: gray;
+}
+.quote {
+  width: 25%;
+  height: auto;
+  margin-left: 50px;
+  max-height: 450px;
+  text-align: center;
+}
+.bunny-container {
+  font-family: 'Asul', sans-serif;
+  color: white;
+  font-size: 24px;
+  border-radius: 50%;
+  background-color: #63A774;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.bunny-container {
+ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+ /*transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);*/
+ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bunny-container:hover {
+   text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+cursor: pointer;
+   box-shadow: 5px 14px 28px rgba(0,0,0,0.25), 5px 10px 10px rgba(0,0,0,0.22);
+}
+.bunny-container:active {
+
+transform: scale(0.80);
+
+
+}
